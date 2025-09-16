@@ -1,1 +1,12 @@
 /* Add CSS Styling */
+.BothValue{
+    font-size: 28px;
+    font-family: Helvetica, Times New Roman,sans-serif;
+}
+.ClickValue{
+    background-color: black;
+    color: white;
+}
+.NoClickValue{
+    background-color: hsl(60, 100%, 50%);
+}
