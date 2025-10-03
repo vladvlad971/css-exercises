@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
 html, body {
   height: 100%;
 }
@@ -20,9 +21,29 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  
 }
 
-.icon {
+
+div.top{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 8px;
+  align-content: center;
+}
+
+div.header{
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+div.icon {
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -31,10 +52,19 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  min-width: 42px;
   align-items: center;
   justify-content: center;
+  margin-right: 8px;
 }
 
+div.text{
+  text-align:left ;
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  margin-bottom: 16px;
+}
 .close-button {
   background: #eee;
   border-radius: 50%;
